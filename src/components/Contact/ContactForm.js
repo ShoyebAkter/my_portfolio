@@ -29,8 +29,8 @@ const ContactForm = () => {
 
     return (
             
-                    
-            <div className="container " id='form'>
+        <div id='form'>  
+            <div className="container " >
                 <form id="contact" onSubmit={sendEmail}>
                     <h3>Contact Form</h3>
                     <h4>Send your message</h4>
@@ -52,7 +52,7 @@ const ContactForm = () => {
                      <div>{result ? <Result/> : null}</div>
                  </form>
             </div>  
-       
+       </div>
     );
 };
 

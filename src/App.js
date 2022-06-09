@@ -23,6 +23,7 @@ import NavBar from "./components/Navbar";
 import PageNotFound from "./components/PageNotFound";
 import ContactForm from "./components/Contact/ContactForm";
 import Footer from "./components/Footer";
+import Mouse from "./components/Mousemove/Mouse";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -39,7 +40,6 @@ function App() {
       <Preloader load={load} />
       
         <NavBar />
-        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
