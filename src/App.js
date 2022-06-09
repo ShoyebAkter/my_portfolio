@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import Preloader from "../src/components/Pre";
 // import Navbar from "./components/Navbar";
-import Home from "./components/Home/Home";
+import Home from "../src/components/Home/Home";
 // import About from "./components/About/About";
 // import Projects from "./components/Projects/Projects";
 // import Footer from "./components/Footer";
@@ -17,6 +17,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Projects from "./components/Projects/Projects";
+import About from "./components/About/About";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -39,6 +40,7 @@ function App() {
           {/* <Route path="/resume" element={<Resume />} /> */}
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
+        <About/>
         <Projects/>
         {/* <Footer />
       </div> */}
