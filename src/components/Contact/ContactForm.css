@@ -87,6 +87,10 @@ fieldset {
   border: 1px solid #aaa;
 }
 
+#form{
+  background-image: var(--image-gradient), url(../assests/bgg.png);
+}
+
 #contact textarea {
   height: 100px;
   max-width: 100%;

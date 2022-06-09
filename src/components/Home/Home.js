@@ -2,8 +2,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import About from "../About/About";
-import homeLogo from "../assests/home-main.svg";
+import homeLogo from "../assests/my-removebg-preview.png";
 import ContactForm from "../Contact/ContactForm";
+
 import Particle from "../Particle";
 import Projects from "../Projects/Projects";
 import Home2 from "./Home2";
@@ -16,6 +17,14 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
+          <Col md={5} style={{ paddingBottom: 20 }}>
+              <img
+                src={homeLogo}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "350px",borderRadius:"50%" }}
+              />
+            </Col>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
@@ -34,21 +43,14 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col>
+            
           </Row>
         </Container>
       </Container>
       <Home2 />
       <About />
         <Projects/>
-        
+        <ContactForm/>
     </section>
   );
 }

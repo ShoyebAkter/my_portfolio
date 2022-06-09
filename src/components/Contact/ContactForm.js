@@ -30,7 +30,7 @@ const ContactForm = () => {
     return (
             
                     
-            <div className="container">
+            <div className="container " id='form'>
                 <form id="contact" onSubmit={sendEmail}>
                     <h3>Contact Form</h3>
                     <h4>Send your message</h4>

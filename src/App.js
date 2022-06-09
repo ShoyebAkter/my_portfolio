@@ -22,6 +22,7 @@ import Resume from "./components/Resume/Resume";
 import NavBar from "./components/Navbar";
 import PageNotFound from "./components/PageNotFound";
 import ContactForm from "./components/Contact/ContactForm";
+import Footer from "./components/Footer";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -42,12 +43,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<ContactForm />} />
+          {/* <Route path="/contact" element={<ContactForm />} /> */}
           {/* <Route path="*" element={<PageNotFound/>} /> */}
           
         </Routes>
         
-        {/* <Footer /> */}
+        <Footer />
       
     </Router>
   );
