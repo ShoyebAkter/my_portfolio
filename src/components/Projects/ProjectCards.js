@@ -1,20 +1,31 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import { useNavigate } from 'react-router-dom';
 import { BiLinkExternal } from "react-icons/bi";
 
-function ProjectCards(props) {
+function ProjectCards({project}) {
+  const {id,title,description,link,imgPath,path}=project;
+  const navigate=useNavigate();
+
+  const detailInfo=()=>{
+    navigate(`/${path}`)
+  }
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img variant="top" src={imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title>{title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
+          {description}
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank">
+        <Button variant="primary" href={link} target="_blank">
           <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
+          { "View Project"}
+        </Button>
+        <Button style={{marginLeft:5}} variant="primary" onClick={detailInfo}>
+          <BiLinkExternal /> &nbsp;
+          { "Details"}
         </Button>
       </Card.Body>
     </Card>

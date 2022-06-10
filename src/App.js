@@ -24,6 +24,8 @@ import PageNotFound from "./components/PageNotFound";
 import ContactForm from "./components/Contact/ContactForm";
 import Footer from "./components/Footer";
 import Mouse from "./components/Mousemove/Mouse";
+import ProjectDetails from "./components/Projects/ProjectDetails";
+import ProjectDetails2 from "./components/Projects/ProjectDetails2";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -43,7 +45,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
-          {/* <Route path="/contact" element={<ContactForm />} /> */}
+          <Route path="/details" element={<ProjectDetails />} />
+          <Route path="/details2" element={<ProjectDetails2 />} />
           {/* <Route path="*" element={<PageNotFound/>} /> */}
           
         </Routes>
