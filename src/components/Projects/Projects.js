@@ -27,7 +27,7 @@ function Projects() {
     {
       id: 3,
       imgPath: car,
-      path:'details3',
+      path:'detail2',
       title: "Car Warehouse",
       description: "Online car warehouse website build with react.js.Where all the data is store in MongoDB databse.User can see the available cars and can uodate the quantity of the cars.Each user can see his/her orders and can delete them also",
       link: "https://carhouse-a8546.web.app/home"

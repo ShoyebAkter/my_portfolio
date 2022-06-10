@@ -1,20 +1,12 @@
 import React from 'react';
 import { Card, CardGroup, Carousel, Col, Container, Row } from 'react-bootstrap';
 import { ImPointRight } from 'react-icons/im';
-import Particle from '../Particle';
-import img1 from '../assests/projects/computerhub/Screenshot (30).png'
-import img2 from '../assests/projects/computerhub/Screenshot (31).png'
 import img3 from '../assests/projects/computerhub/Screenshot (33).png'
 import img4 from '../assests/projects/computerhub/Screenshot (34).png'
 import img5 from '../assests/projects/computerhub/Screenshot (35).png'
-import img6 from '../assests/projects/computerhub/Screenshot (36).png'
-import img7 from '../assests/projects/computerhub/Screenshot (37).png'
 import img8 from '../assests/projects/computerhub/Screenshot (38).png'
 import img9 from '../assests/projects/computerhub/Screenshot (39).png'
 import img10 from '../assests/projects/computerhub/Screenshot (40).png'
-import img11 from '../assests/projects/computerhub/Screenshot (41).png'
-import img12 from '../assests/projects/computerhub/Screenshot (42).png'
-import img13 from '../assests/projects/computerhub/Screenshot (43).png'
 
 const ProjectDetails2 = () => {
     return (
@@ -30,7 +22,7 @@ const ProjectDetails2 = () => {
                         <Col xs={4}><Card.Img variant="top" src={img8} alt="card-img" /></Col>
                         <Col xs={4}><Card.Img variant="top" src={img9} alt="card-img" /></Col>
                     </Row>
-                    <Row>
+                    <Row >
                         <Col><p> 
                         <ImPointRight />   Login or SignUp is used for user or admin to login to their respective account.<br/>
                         <ImPointRight />  After login User can see one extra route Dashboard. In Dashboard there is three route.<br/>
