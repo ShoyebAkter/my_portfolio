@@ -27,7 +27,7 @@ function Home() {
             </Col>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi {"</ Everyone>"}
+                Hi {" Everyone"}
               </h1>
 
               <h1 className="heading-name">

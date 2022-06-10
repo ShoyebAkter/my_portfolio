@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -13,19 +12,10 @@ function AboutCard() {
             <br />I am a junior front end developer studying at Bangladesh Army University of Science And Technology.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            During the pandemic,I heard about Web development.I had no knowledge about it that time.<br/>
+            After 6 month, completing my web development bootcamp,I got to know more about it and I want to work more on my skills.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Watching Anime
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
+          
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Know your limits and go beyond that limit"{" "}
