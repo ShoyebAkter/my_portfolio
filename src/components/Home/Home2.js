@@ -21,15 +21,15 @@ function Home2() {
               I wrote my first code back in 2019.Back then I used to memorized code.Now I love programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I love web development and 
               <i>
-                <b className="purple"> C++ and Javascript. </b>
+                <b className="purple"> I am a fan of React </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b>
+                <b className="purple">Websites</b>
               </i>
               <br />
               <br />
@@ -48,9 +48,9 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} sm={6} className="myAvtar">
-            <Tilt>
+            {/* <Tilt>
               <img src={myImg} className="img-fluid" style={{ maxHeight: "350px",borderRadius:"50%" }} alt="avatar" />
-            </Tilt>
+            </Tilt> */}
           </Col>
         </Row>
         
