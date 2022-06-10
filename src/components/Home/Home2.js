@@ -10,7 +10,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-section home-about-section" id="about">
+    <Container fluid className="home-section home-about-section">
       <Container>
         <Row>
           <Col md={12} sm={12} className="home-about-description">
