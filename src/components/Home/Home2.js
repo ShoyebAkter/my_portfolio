@@ -13,9 +13,9 @@ function Home2() {
     <Container fluid className="home-section home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} sm={6} className="home-about-description">
+          <Col md={12} sm={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple"> TELL YOU ABOUT </span> MY JOURNEY AS A PROGRAMMER
             </h1>
             <p className="home-about-body">
               I wrote my first code back in 2019.Back then I used to memorized code.Now I love programming and I have at least learnt
@@ -47,11 +47,11 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} sm={6} className="myAvtar">
-            {/* <Tilt>
+          {/* <Col md={4} sm={6} className="myAvtar">
+            <Tilt>
               <img src={myImg} className="img-fluid" style={{ maxHeight: "350px",borderRadius:"50%" }} alt="avatar" />
-            </Tilt> */}
-          </Col>
+            </Tilt>
+          </Col> */}
         </Row>
         
       </Container>
