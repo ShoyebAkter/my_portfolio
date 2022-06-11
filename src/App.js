@@ -27,6 +27,7 @@ import Mouse from "./components/Mousemove/Mouse";
 import ProjectDetails from "./components/Projects/ProjectDetails";
 import ProjectDetails2 from "./components/Projects/ProjectDetails2";
 import ProjectDetail2 from "./components/Projects/ProjectDetail2";
+import Blogs from "./components/Blogs/Blogs";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -49,6 +50,7 @@ function App() {
           <Route path="/details" element={<ProjectDetails />} />
           <Route path="/details2" element={<ProjectDetails2 />} />
           <Route path="/detail2" element={<ProjectDetail2 />} />
+          <Route path="/blogs" element={<Blogs />} />
           {/* <Route path="*" element={<PageNotFound/>} /> */}
           
         </Routes>

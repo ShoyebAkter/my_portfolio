@@ -14,7 +14,8 @@ function Projects() {
       path:'details',
       title: "What's app",
       description: "Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.",
-      link: "https://chatting-app-react.netlify.app"
+      link: "https://chatting-app-react.netlify.app",
+      github:"https://github.com/ShoyebAkter/whatsapp-clone-front-end"
     },
     {
       id: 2,
@@ -22,7 +23,8 @@ function Projects() {
       path:'details2',
       title: "Computer Hub",
       description: "Manufacture MERN stack website build with Daisy UI and Tailwind Css which takes the content from makdown files and renders it using React.js.Has user and admin two different pannel.",
-      link: "https://computer-hub-f78ec.web.app"
+      link: "https://computer-hub-f78ec.web.app",
+      github:"https://github.com/ShoyebAkter/manufactureFrontend"
     },
     {
       id: 3,
@@ -30,7 +32,8 @@ function Projects() {
       path:'detail2',
       title: "Car Warehouse",
       description: "Online car warehouse website build with react.js.Where all the data is store in MongoDB databse.User can see the available cars and can uodate the quantity of the cars.Each user can see his/her orders and can delete them also",
-      link: "https://carhouse-a8546.web.app/home"
+      link: "https://carhouse-a8546.web.app/home",
+      github:"https://github.com/ShoyebAkter/warehouseFrontend"
     }
   ]
   return (

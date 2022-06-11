@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { BiLinkExternal } from "react-icons/bi";
 
 function ProjectCards({project}) {
-  const {id,title,description,link,imgPath,path}=project;
+  const {github,title,description,link,imgPath,path}=project;
   const navigate=useNavigate();
 
   const detailInfo=()=>{
@@ -19,13 +19,17 @@ function ProjectCards({project}) {
         <Card.Text style={{ textAlign: "justify" }}>
           {description}
         </Card.Text>
-        <Button variant="primary" href={link} target="_blank">
+        <Button variant="primary"  href={link} target="_blank">
           <BiLinkExternal /> &nbsp;
-          { "View Project"}
+          { "Project"}
         </Button>
-        <Button style={{marginLeft:5}} variant="primary" onClick={detailInfo}>
+        <Button style={{marginLeft:10}} variant="primary" onClick={detailInfo}>
           <BiLinkExternal /> &nbsp;
           { "Details"}
+        </Button>
+        <Button style={{marginTop:5}} href={github} variant="primary" target="_blank">
+          <BiLinkExternal /> &nbsp;
+          { "Github"}
         </Button>
       </Card.Body>
     </Card>
