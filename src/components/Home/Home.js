@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import About from "../About/About";
-import homeLogo from "../assests/my-removebg-preview.png";
+import homeLogo from "../assests/myself-removebg-preview.png";
 import ContactForm from "../Contact/ContactForm";
 
 import Particle from "../Particle";

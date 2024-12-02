@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chat from '../assests/projects/Screenshot (10).png'
-import computer from '../assests/projects/Screenshot (9).png'
-import car from '../assests/projects/Screenshot (11).png'
+import chat from '../assests/euler.png'
+import computer from '../assests/rahman.png'
+import car from '../assests/vic.png'
 
 function Projects() {
   const projects = [
@@ -12,28 +12,33 @@ function Projects() {
       id: 1,
       imgPath: chat,
       path:'details',
-      title: "What's app",
-      description: "Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.",
-      link: "https://chatting-app-react.netlify.app",
-      github:"https://github.com/ShoyebAkter/whatsapp-clone-front-end"
+      title: "EulerMail",
+      description: `
+      Create, customize, and edit professional email templates with a user-friendly drag-and-drop editor
+      and send it via whatsapp or email.This platform aims to streamline data-driven decision-making for e-commerce businesses
+      while providing tools to engage with customers effectively and track performance across digital channels`,
+      link: "https://www.eulermail.app/",
     },
     {
       id: 2,
       imgPath: computer,
       path:'details2',
-      title: "Computer Hub",
-      description: "Manufacture MERN stack website build with Daisy UI and Tailwind Css which takes the content from makdown files and renders it using React.js.Has user and admin two different pannel.",
-      link: "https://computer-hub-f78ec.web.app",
-      github:"https://github.com/ShoyebAkter/manufactureFrontend"
+      title: "Rahman Group",
+      description:`The website is a feature-rich dashboard designed to manage and analyze data related to foreign workers.
+      Here one can see how many people came from different country for work,their passport &
+      visa validation,which agents they use, how much they pay and also add or delete data.
+      `,
+      link: "https://rahman-group.vercel.app/",
     },
     {
       id: 3,
       imgPath: car,
       path:'detail2',
-      title: "Car Warehouse",
-      description: "Online car warehouse website build with react.js.Where all the data is store in MongoDB databse.User can see the available cars and can uodate the quantity of the cars.Each user can see his/her orders and can delete them also",
-      link: "https://carhouse-a8546.web.app/home",
-      github:"https://github.com/ShoyebAkter/warehouseFrontend"
+      title: "VIC",
+      description: `This website is designed for a car manufacturing company to enhance user experience and streamline consultation bookings
+      Users can select their precise location and provide all the necessary details required for confirming a consultation.
+      `, 
+      link: "https://vic-omega.vercel.app/",
     }
   ]
   return (

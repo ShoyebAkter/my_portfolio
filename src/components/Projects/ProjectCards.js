@@ -27,10 +27,7 @@ function ProjectCards({project}) {
           <BiLinkExternal /> &nbsp;
           { "Details"}
         </Button>
-        <Button style={{marginTop:5}} href={github} variant="primary" target="_blank">
-          <BiLinkExternal /> &nbsp;
-          { "Github"}
-        </Button>
+        
       </Card.Body>
     </Card>
   );
